@@ -1,0 +1,12 @@
+
+<div class="profiles-container">
+  <mat-card class="main-card">
+    <mat-list >
+      <mat-list-item style="height: auto; padding-top: 10px; padding-bottom: 10px;" *ngFor="let user of chats">
+        <img style="margin-right: 15px;" mat-list-avatar [src]="user.avatar">
+        <a [routerLink]="['chat', user.chat_id]">{{ user.name }}</a>
+      </mat-list-item>
+    </mat-list>
+  </mat-card>
+</div>
+

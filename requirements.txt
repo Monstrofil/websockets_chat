@@ -1,0 +1,5 @@
+Django
+channels
+channels_redis
+django-cors-headers
+asgiref
